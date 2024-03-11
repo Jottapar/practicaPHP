@@ -45,4 +45,6 @@ echo saborjugo($frutas["Manzana"]["Nombre"])."\n";
 echo contador(10)."\n";
 
 echo encontrarids(123456)."\n";
+
+echo sumarhastaten(2);
 ?>

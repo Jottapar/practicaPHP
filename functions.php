@@ -47,7 +47,16 @@ function encontrarids($id){
 
 };
 
+// utilizar el loop for
 
+function sumarhastaten($a) {
+
+    for ($i=0; $i <= 10 ; $i++) { 
+        $res= $a + $i;
+    }
+
+    return $res;
+};
 
 
 ?>
