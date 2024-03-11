@@ -5,6 +5,8 @@ const SIEMPRE= "Buenos Dias";
 $saludo = "Hola";
 $dias = (string) 6.78; //estoy es casting
 
+$ids = [123456,654321,162534];
+
 $frutas = [
     "Manzana" =>array(
         "Nombre" => "Manzana",
@@ -41,4 +43,6 @@ echo saborjugo($frutas["Manzana"]["Nombre"])."\n";
 
 
 echo contador(10)."\n";
+
+echo encontrarids(123456)."\n";
 ?>

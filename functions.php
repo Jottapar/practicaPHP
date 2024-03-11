@@ -27,7 +27,7 @@ function saborjugo($fruta){
 };
 
 
-
+// contador para practicar while
 function contador($contador) {
 
     while ($contador >= 0){
@@ -36,5 +36,18 @@ function contador($contador) {
     };
 
 };
+
+// validar si esta o no un id con DO while
+
+function encontrarids($id){
+
+    do {
+        return "el Usuario $id ya esta en la base de datos";
+    } while ( in_array($id, $ids) );
+
+};
+
+
+
 
 ?>
