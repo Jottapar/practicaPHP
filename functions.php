@@ -1,0 +1,31 @@
+<?php
+
+function nombre ($nombre, $apellido, $genero) {
+
+    if ($genero == "Hombre") {
+        return "El es $genero y su nombre es $nombre y su apellido es $apellido"."\n";
+    } else if ($genero == "Mujer") {
+        return "Ella es $genero y su nombre es $nombre y su apellido es $apellido"."\n";
+    } else {
+        return "no es un humano";
+    }
+    
+};
+
+function saborjugo($fruta){
+    switch ($fruta) {
+        case "Manzana":
+            return "El jugo es dulce";
+            break;
+        case "Piña":
+            return "El jugo es acido";
+            break;
+        default:
+            return "pailas no hay para hacer de ese jugo";
+    }
+
+};
+
+
+
+?>
