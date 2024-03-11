@@ -30,7 +30,13 @@ $frutas = [
     )];
 
 
-$marcas = array("ferrari", "Mclaren", "Toyata", "Pegout");
+
+$marcas = array(
+    "ferrari" => "rojo", 
+    "Mclaren" => "negro", 
+    "Toyata" => "blanco", 
+    "Pegout" => "azul"
+);
 
 echo "La {$frutas["Manzana"]["Nombre"]} tiene un sabor {$frutas['Manzana']['Sabor']}"."\n";
 
@@ -47,4 +53,6 @@ echo contador(10)."\n";
 echo encontrarids(123456)."\n";
 
 echo sumarhastaten(2);
+
+echo colorcarros($marcas);
 ?>

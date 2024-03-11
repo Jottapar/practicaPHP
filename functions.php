@@ -58,5 +58,12 @@ function sumarhastaten($a) {
     return $res;
 };
 
+// utilizar el loop foreach
+
+function colorcarros($marcas){
+    foreach ($marcas as $marca => $color) {
+        echo "el carro $marca es de color $color \n";
+    }
+};
 
 ?>
