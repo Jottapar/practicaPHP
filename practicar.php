@@ -30,14 +30,11 @@ $frutas = [
 
 $marcas = array("ferrari", "Mclaren", "Toyata", "Pegout");
 
-
-
-
 echo "La {$frutas["Manzana"]["Nombre"]} tiene un sabor {$frutas['Manzana']['Sabor']}"."\n";
 
+require('functions.php');
 
 
-
-
+echo  Nombre("Johan","Pardo");
 
 ?>
