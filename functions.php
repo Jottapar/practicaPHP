@@ -16,10 +16,10 @@ function saborjugo($fruta){
     switch ($fruta) {
         case "Manzana":
             return "El jugo es dulce";
-            break;
+          
         case "Piña":
             return "El jugo es acido";
-            break;
+           
         default:
             return "pailas no hay para hacer de ese jugo";
     }
@@ -27,5 +27,14 @@ function saborjugo($fruta){
 };
 
 
+
+function contador($contador) {
+
+    while ($contador >= 0){
+        echo $contador."\n";
+        $contador--;
+    };
+
+};
 
 ?>
