@@ -35,6 +35,9 @@ echo "La {$frutas["Manzana"]["Nombre"]} tiene un sabor {$frutas['Manzana']['Sabo
 require('functions.php');
 
 
-echo  Nombre("Johan","Pardo");
+echo  Nombre("Johan","Pardo","Hombre")."\n";
+
+echo saborjugo($frutas["Naranja"]["Nombre"]);
+
 
 ?>
